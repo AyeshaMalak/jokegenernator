@@ -1,0 +1,69 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main Joke Box Container */
+.joke-box {
+    background-color: rgb(199, 228, 238);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Joke Heading */
+.joke-heading {
+    font-size: 28px;
+    color: #7d4e89;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Joke Image */
+.joke-image {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Generate Button */
+.generate-button {
+    padding: 12px 30px;
+    font-size: 18px;
+    background-color: #7d4e89;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.generate-button:hover {
+    background-color: #6a3f72;
+}
+
+/* Joke Text */
+.joke-text {
+    font-size: 20px;
+    color: #555;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.joke-text p {
+    margin: 10px 0;
+}
